@@ -1,0 +1,45 @@
+.top{
+	height: 80px;
+	width: 100%;
+	display: flex;
+	p,span{
+		magin-top:50px;
+	}
+}
+.cont{
+	height: 260px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	.left{
+		height: 130px;
+		width: 70%;
+	}.right{
+		height: 130px;
+		width: 30%;
+		display: flex;
+		img{
+			height: 100px;
+			width: 130px;
+			margin-right:10px;
+		}
+	}
+	 
+}
+#say{
+	
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	h4{
+		img{
+			height: 30px;
+			width: 30px;
+		}
+		display: flex;
+		
+		.sayTime{
+			float:right;
+		}
+	}
+}

@@ -1,0 +1,9 @@
+require(['../js/config.js'],function(){
+	require(['mui'],function(mui){
+		console.log(mui);
+		mui.init();
+		speak.addEventListener('tap',function(){
+			alert(1)
+		});
+	});
+});
